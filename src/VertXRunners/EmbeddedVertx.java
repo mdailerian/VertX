@@ -12,6 +12,9 @@ import io.vertx.ext.web.handler.StaticHandler;
 //https://github.com/vert-x3/vertx-examples/blob/master/core-examples/src/main/java/io/vertx/example/core/embed/EmbeddedServer.java
 //http://allegro.tech/2015/11/real-time-web-application-with-websockets-and-vert-x.html
 
+// TO DO : Continue reDING
+// https://github.com/cescoffier/my-vertx-first-app/tree/master/src/main
+
 public class EmbeddedVertx extends AbstractVerticle{
 
     public static void main(String[] args) {
@@ -45,7 +48,6 @@ public class EmbeddedVertx extends AbstractVerticle{
         // define some REST API
         router.get("/api/users").handler(ctx -> {
             System.out.println("api users");
-            return;
         });
 
         vertx
