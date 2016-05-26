@@ -1,3 +1,3 @@
 # VertX
 
-public reposityr for mdailerian's vertx play project
+public repository for mdailerian's vertx play project
